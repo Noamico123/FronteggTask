@@ -17,13 +17,13 @@ const authOptions = {
 
 
 // For react 18: 
-// const root = ReactDOM.createRoot(document.getElementById('root'));
-// root.render(
-ReactDOM.render(
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+// ReactDOM.render(
     <FronteggProvider contextOptions={contextOptions} 
     hostedLoginBox={true}
     authOptions={authOptions}>
         <App />
     </FronteggProvider>,
-    document.getElementById('root')
+    // document.getElementById('root')
 );
