@@ -45,22 +45,8 @@
 .card-img {
   width: 100px;
   margin-right: 1rem;
+  margin-bottom: 10px;
 }
-
-.permissions {
-  margin-top: 1rem;
-}
-
-.permissions ul {
-  list-style-type: none;
-  padding: 0;
-}
-
-.permissions li {
-  color: #888;
-  font-size: 0.9rem;  
-}
-
 
 
 .button {
